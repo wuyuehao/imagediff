@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+</head>
+<body>
+<h2>Orignial:</h2>
+<img src="/static/{{res.f1}}"/>
+<img src="/static/{{res.f2}}"/>
+<h2>Evaluation:</h2>
+<ul>
+    <li>pixel matching: {{res.pixel_match_score}}</li>
+    <li>feature matching:{{res.feature_match_score}}, score: {{res.feature_diff_score}}</li>
+    <li>catagory matching: euclidean_distance = {{res.euclidean_distance}}, cosine_distance =
+        {{res.cosine_distance}}
+    </li>
+    <li>Image 1: {{res.category1}}, Image 2: {{res.category2}}</li>
+
+
+    <img src="/static/{{res.feature_match_img}}" style="width: 600px;"/>
+    <br/>
+    <img src="/static/{{res.feature_diff_img1}}"/>
+    <img src="/static/{{res.feature_diff_img2}}"/>
+
+
+</ul>
+
+
+</body>
+</html>
