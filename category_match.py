@@ -1,7 +1,7 @@
 import tensorflow as tf
 import tensorflow_hub as hub
 import PIL.Image as Image
-import numpy as npI
+import numpy as np
 from scipy.spatial.distance import euclidean, cosine
 
 
