@@ -44,6 +44,6 @@ tensorflow==2.2.0rc3
 tensorflow-estimator==2.2.0
 tensorflow-hub==0.8.0
 termcolor==1.1.0
-urllib3==1.25.9
+urllib3==1.26.5
 wrapt==1.12.1
 waitress
